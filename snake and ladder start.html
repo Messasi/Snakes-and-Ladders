@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<!--Linking to style sheet and allowing the papge to be responsive-->
+		<title>Snakes and Ladders</title>
+		<link rel="stylesheet" href="snakesandladders.css"> <!--css link-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta charset="UTF-8">
+	</head>
+
+		<!--Html for the game-->
+	<body>
+		<!--Header for the game-->
+		<div class="header">
+			<h1>Snakes and Ladders</h1>
+		</div>
+
+		<!--Creating a button for the dice-->
+		
+		<div id="DiceButton">
+		<!--(Mliu92, 2021)-->
+			<img src="DiceFace.png" width="200px "  height="200px"   alt="Dice Image " />
+		</div>
+
+		<!--A button to start the game-->
+		
+		<div class="playerBtn">
+			<input type="button" value="Player Name" onclick="getPlayerName();" />
+		</div>	
+
+		<!-- Image for the snakes and ladders and canvas -->
+		<div class="imgcontainer">
+			<!--(Singh, 2021)-->
+			<img src="board.png" width="895px" height="620px" alt="Board Image">
+			<canvas id="slCanvas" width="888px" height="610px"></canvas>
+		</div>
+
+	</body>
+
+
+	<!--Javascript for the game-->
+	<body>
+		<script src="script.js"> //link to external script 
+		</script>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+/*To make sure theres edging to the screen */
+.body{
+
+    margin: 0;
+    padding: 20px;
+    
+
+}
+
+/*Header styling */
+.header{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(24, 137, 212);
+    color: white;
+}
+
+
+/*Outside of the button*/
+#DiceButton { 
+
+    padding: 40px;
+    transition: filter 0.2s ease;
+    position: absolute;
+    bottom: 20;
+    right: 80;
+    
+
+}
+
+/*making the image darken as mouse hovers*/
+#DiceButton img:hover{
+
+    cursor: pointer;
+    filter: brightness(80%);
+
+}
+
+/*stlying for the image*/
+#DiceButton img {
+    border-radius: 6px;
+    height: auto;
+}
+
+
+
+
+/*Player button stlying */
+.playerBtn input[type="button"] {
+    padding: 60px 65px; 
+    color: #ffffff; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    background-color: rgb(0, 157, 255);
+    left: 76%;
+    top: 32%;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+
+/*stlying from mouse hover for player button mouse hover */
+.playerBtn input[type="button"]:hover {
+    
+    background-color: rgb(56, 108, 240);
+}
+
+
+/*Container for the iamge and the canas */
+.container {
+    position: relative;
+}
+
+/*Positioning for the canvas*/
+canvas {
+    position: absolute;
+    left: 13px;
+    top: 173px;
+    
+}
